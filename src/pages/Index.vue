@@ -1,17 +1,39 @@
 <template>
-  <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-vertical.svg"
-      style="width: 200px; height: 200px"
-    >
+  <q-page class="">
+    <Hero />
+    <About />
+    <Mission />
+    <Services />
+    <Programs />
+    <Contact />
+    <Sponsors />
+    <Footer />
   </q-page>
 </template>
 
 <script>
-import { defineComponent } from 'vue';
+import Hero from "../components/Home/Hero.vue";
+import About from "../components/Home/About.vue";
+import Mission from "../components/Home/Mission.vue";
+import Services from "../components/Home/Services.vue";
+import Contact from "../components/Home/Contact.vue";
+import Sponsors from "../components/Home/Sponsors.vue";
+import Programs from "../components/Home/Programs.vue";
+import Footer from "../components/Footer.vue";
+
+import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: 'PageIndex'
-})
+  name: "PageIndex",
+  components: {
+    Hero,
+    About,
+    Mission,
+    Services,
+    Contact,
+    Sponsors,
+    Programs,
+    Footer,
+  },
+});
 </script>
