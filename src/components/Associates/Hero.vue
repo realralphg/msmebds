@@ -41,8 +41,18 @@ export default {};
 <style scoped>
 .hero {
   height: 55vh;
-  background: rgb(4, 4, 12);
+  background: url("/images/associates.png");
   position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: rgba(4, 4, 12, 0.65);
+  width: 100%;
+  height: 100%;
 }
 
 h2 {
