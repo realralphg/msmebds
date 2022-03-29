@@ -2,3 +2,15 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+
+html::-webkit-scrollbar {
+  width: 0.65rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: red;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #00eaab;
+}

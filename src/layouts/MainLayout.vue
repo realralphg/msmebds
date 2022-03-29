@@ -8,29 +8,33 @@
 
         <nav>
           <ul>
-            <q-tabs active-color="primary">
-              <q-route-tab to="/" label="Home" />
+            <q-tabs active-bg-color="primary">
+              <q-route-tab exact to="/" label="Home" />
               <q-route-tab
                 class="text-secondary nav"
                 to="/about"
                 label="About Us"
               />
               <q-route-tab
+                active-color="primary"
                 class="text-secondary nav"
                 to="/associates"
                 label="Associates"
               />
               <q-route-tab
+                active-color="primary"
                 class="text-secondary nav"
                 to="/services"
                 label="Services"
               />
               <q-route-tab
+                active-color="primary"
                 class="text-secondary nav"
                 to="/programs"
                 label="Programs"
               />
               <q-route-tab
+                active-color="primary"
                 class="text-secondary nav"
                 to="/projects"
                 label="Projects"

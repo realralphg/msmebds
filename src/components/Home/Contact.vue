@@ -65,8 +65,8 @@ export default {};
 
 <style scoped>
 .hold {
-  margin: 2rem 0;
-  padding: 6rem 0;
+  /* margin: 2rem 0; */
+  padding: 3rem 0;
   background: #f9f9f9;
 }
 .wrapp {

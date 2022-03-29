@@ -25,6 +25,7 @@ export default {
 }
 p {
   margin-bottom: 0;
+  font-size: 1.8rem;
 }
 .griid {
   color: #fff;
@@ -77,6 +78,11 @@ p {
   .griid img {
     object-fit: contain;
     width: 90px;
+  }
+
+  p {
+    margin-bottom: 0;
+    font-size: 1.6rem;
   }
 }
 </style>

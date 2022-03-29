@@ -3,23 +3,35 @@
     <div class="left">
       <h5 class="text-weight-bold">Our Services</h5>
       <p>
-        <!-- <span class="text-primary">Business Development Services Limited</span> -->
+        MSME Business Development Services Limited is a United Nations
+        Industrial Development Organization (UNIDO) and Small and Medium
+        Enterprises Development Agency of Nigeria (SMEDAN) Certified and
+        Accredited Micro, Small and Medium Enterprises Development and Training
+        Institute. <br />
         <br />
-        is a Business Development Service Facilitator and Provider Firm.
+
+        Beyond entrepreneurship training and capacity building, we offer
+        services that promote enterprise innovations to aid enterprise
+        productivity and competitiveness in line with the aspirations of the
+        21st century economy. <br />
         <br />
-        We are committed to providing innovative and cutting-edge business
-        <br />
-        development services to enterprise operators.
+
+        As Certified and Accredited Business Development Service Providers
+        (BDSPs), we provide innovative Operational, Technical and Strategic
+        Business Development Services (BDS) and practical Handholding to MSME
+        Operators to various sector to enable them overcome critical Enterprise
+        Growth Inhibitors (EGI) and facilitate ease of enterprise development,
+        growth and expansion.
       </p>
-      <div class="bts">
+      <!-- <div class="bts">
         <q-btn class="q-py-md q-px-xl bg-primary"> View more </q-btn>
-      </div>
+      </div> -->
       <img class="vec" src="/images/viv.png" alt="" />
     </div>
     <div class="right">
       <div class="two">
-        <img src="/images/asso2.png" alt="" />
-        <img class="tw" src="/images/asso2.png" alt="" />
+        <img src="/images/serv2.png" alt="" />
+        <img class="tw" src="/images/serv.png" alt="" />
       </div>
     </div>
   </div>
@@ -61,6 +73,12 @@ p span {
   gap: 1rem;
 }
 
+.right .two img {
+  width: 80%;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
 .one {
   position: relative;
 }
@@ -91,7 +109,7 @@ p span {
 }
 .two img:nth-child(2) {
   margin-top: -4%;
-  margin-left: 2%;
+  margin-left: 8%;
 }
 
 .bts {
@@ -100,8 +118,8 @@ p span {
 
 .vec {
   position: absolute;
-  top: 10%;
-  left: 12%;
+  top: 7%;
+  left: 32%;
   width: 150px;
   height: 100px;
 }

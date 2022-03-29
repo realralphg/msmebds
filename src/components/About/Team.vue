@@ -8,34 +8,42 @@
 
       <div class="griid">
         <div class="person">
-          <img src="/images/profile.png" alt="" />
+          <div class="opaq">
+            <img class="ber" src="/images/team2.png" alt="" />
+          </div>
           <div class="der">
-            <h6 class="text-white">Lorem ipsum dolor sit amet.</h6>
-            <p class="text-primary">Lorem ipsum dolor sit.</p>
+            <h6 class="text-white">Dr. Peter Ayim</h6>
+            <p class="text-primary">CEO</p>
             <img src="/images/bg.png" alt="" />
           </div>
         </div>
         <div class="person">
-          <img src="/images/profile.png" alt="" />
+          <div class="opaq">
+            <img class="ber" src="/images/team3.png" alt="" />
+          </div>
           <div class="der">
-            <h6 class="text-white">Lorem ipsum dolor sit amet.</h6>
-            <p class="text-primary">Lorem ipsum dolor sit.</p>
+            <h6 class="text-white">Sir. Zics Asare</h6>
+            <p class="text-primary">Program Lead</p>
             <img src="/images/bg.png" alt="" />
           </div>
         </div>
         <div class="person">
-          <img src="/images/profile.png" alt="" />
+          <div class="opaq">
+            <img class="ber" src="/images/team1.png" alt="" />
+          </div>
           <div class="der">
-            <h6 class="text-white">Lorem ipsum dolor sit amet.</h6>
-            <p class="text-primary">Lorem ipsum dolor sit.</p>
+            <h6 class="text-white">Victor Obioma</h6>
+            <p class="text-primary">Partnership Lead</p>
             <img src="/images/bg.png" alt="" />
           </div>
         </div>
         <div class="person">
-          <img src="/images/profile.png" alt="" />
+          <div class="opaq">
+            <img class="ber" src="/images/profile.png" alt="" />
+          </div>
           <div class="der">
-            <h6 class="text-white">Lorem ipsum dolor sit amet.</h6>
-            <p class="text-primary">Lorem ipsum dolor sit.</p>
+            <h6 class="text-white">Andrew Nwobodo</h6>
+            <p class="text-primary">ICT Lead</p>
             <img src="/images/bg.png" alt="" />
           </div>
         </div>
@@ -50,64 +58,104 @@
       <div class="faq container">
         <input id="faq-a" type="checkbox" />
         <label for="faq-a">
-          <p class="faq-heading">How many purchases can?</p>
+          <p class="faq-heading">Why MSME business development services?</p>
           <div class="faq-arrow"><i class="fa-solid fa-arrow-right"></i></div>
           <p class="faq-text">
-            You can purchase an individual account or a site license by emailing
-            us at welcome@brainitz.com One of our staff will be in touch shortly
-            to set-up your account. We accept credit card, purchase order, or
-            check. Learn more on our pricing page.<br /><br />We also offer
-            professional development trainings that include the opportunity to
-            pursue credit while also receiving a discounted license. If you have
-            more questions, please feel free to submit a request!
+            Micro, Small and Medium Enterprises (MSMEs) are at the center of
+            national economic development. MSMEs are acknowledged for driving
+            creativity and innovations that translates to wealth generation and
+            job creation thereby contributing to the development of the nation’s
+            economy in terms of Gross Domestic Product (GDP). <br />
+            <br />
+            An enterprise is an interdependent system of a web of several
+            components that must fit in seamlessly for the enterprise to
+            function successfully. Starting and managing an enterprise can be an
+            intriguing and complex process requiring the connection of several
+            complex dots that are usually outside the reach of an average
+            enterprise operator and so they need present and continues support
+            services to help navigate their way through the complex pathway of
+            doing business successfully. <br />
+            <br />
+            While they are existing MSMEs, people aspiring to become
+            entrepreneurs continue to establish enterprises on a regular basis
+            to facilitate the realization of their entrepreneurial dreams and
+            they will always need all the support services they need to succeed
+            in their entrepreneurial endeavors.
           </p>
         </label>
         <input id="faq-b" type="checkbox" />
         <label for="faq-b">
-          <p class="faq-heading">How we can place an order?</p>
+          <p class="faq-heading">
+            What is business development services for MSMES?
+          </p>
           <div class="faq-arrow"><i class="fa-solid fa-arrow-right"></i></div>
           <p class="faq-text">
-            Yes, we have professional development trainings available almost
-            every month. Teachers can take our online course that will train you
-            on the theory and practice of putting lessons online, often called
-            flipped or blended learning. These trainings also include in depth
-            instruction on how to use Brainitz.<br /><br />Online training start
-            at $45, include a 1 year subscription Brainitz, and come with 1 hour
-            of advancement credit available through Adams State University or
-            $55. For dates on upcoming trainings, email us at
-            welcome@brainitz.com. If you have more questions, please feel free
-            to submit a request!
+            Business Development Services (BDS) are all non-financial services
+            that are offered to enterprise operators to enable them run their
+            businesses successfully. <br />
+            <br />
+            According to the Committee of Donor Agencies for Small Enterprise
+            Development, 2001, within the context of MSMEs, Business Development
+            Services (BDS) are generally defined as: “services that improve the
+            performance of the enterprise, its access to markets, and its
+            ability to compete. <br />
+            <br />
+            By way of definition, Business Development Service (BDS) includes an
+            array of business services (such as training, consultancy,
+            marketing, information, technology development and transfer,
+            business linkage promotion, etc.), both strategic (medium to long
+            term issues that improve performance) and operational (day-to-day
+            issues).
           </p>
         </label>
         <input id="faq-c" type="checkbox" />
         <label for="faq-c">
-          <p class="faq-heading">How can i do a pick-up?</p>
+          <p class="faq-heading">Importance of BDS for MSME Development</p>
           <div class="faq-arrow"><i class="fa-solid fa-arrow-right"></i></div>
           <p class="faq-text">
-            Yes, Brainitz accepts purchase order for site licenses. Please set
-            the PO, including a description of the order to welcome@brainitz.com
-            and we will invoice you for the amount. Once we send the invoice,
-            someone will be in touch to set up your Brainitz account.<br /><br />You
-            can learn more about our licensing structure on our pricing page. If
-            you have more questions, please feel free to submit a request!
+            BDS are a very important means of supporting the development of
+            micro, small and medium sized enterprises (MSMEs), which are known
+            to create employment, generate income and contribute to economic
+            development and growth. Employment and income generation are
+            particularly important as far as impoverished rural areas,
+            vulnerable communities and groups are concerned. <br />
+            <br />
+            BDS play a very important form of support for the development of
+            MSMEs by providing a range of business advice, information and
+            support to the sector, as well as stimulating sustainable MSME
+            development by improving the general business environment. <br />
+            <br />
+            BDS are generally viewed as a mechanism for addressing market
+            failures which are particularly evident in transition economies,
+            such as lack of information (market opportunities, rules and
+            regulations, access to credit, quality standards for export, etc.)
+            which can act as a barrier to faster economic development and growth
+            in a particular geographical area.
           </p>
         </label>
         <input id="faq-d" type="checkbox" />
         <label for="faq-d">
-          <p class="faq-heading">What are the technical?</p>
+          <p class="faq-heading">The Challenges</p>
           <div class="faq-arrow"><i class="fa-solid fa-arrow-right"></i></div>
           <p class="faq-text">
-            To get setup with Brainitz, instructors will need a computer with
-            working Internet connection and a web browser. <br /><br />Students
-            will need any device with a web browser, ranging from smartphones to
-            tablets and personal computer, as well as an Internet or cellular
-            connection. <br /><br />For the be st experience, we recommend using
-            the latest version of Google Chrome, but it should work on a recent
-            version of any major browser. If you have any more questions, please
-            feel free to submit a request!
+            Beyond the challenges of lack of access to conventional finance,
+            there are numerous other non-financial factors that inhibit the
+            growth and expansion of the over 41.5 million Micro, Small and
+            Medium Enterprises (MSMEs) and millions of others in the Informal
+            Sector. <br />
+            <br />
+
+            Micro, Small and Medium Enterprises (MSMEs) are confronted with
+            diverse internal technical and operational challenges that prevents
+            them from being productive and competitive. <br />
+            <br />
+
+            Beyond distorted and periodic intervention programmes, there are no
+            harmonized and coordinated commercial and demand driven Business
+            Development Services and handholding for MSMEs
           </p>
         </label>
-        <input id="faq-e" type="checkbox" />
+        <!-- <input id="faq-e" type="checkbox" />
         <label for="faq-e">
           <p class="faq-heading">Can I add a</p>
           <div class="faq-arrow"><i class="fa-solid fa-arrow-right"></i></div>
@@ -136,7 +184,7 @@
             avoid being timed out. If you have more questions, please feel free
             to submit a request!
           </p>
-        </label>
+        </label> -->
       </div>
     </div>
   </div>
@@ -151,7 +199,7 @@ export default {};
   background: rgba(1, 6, 87, 0.08);
 }
 .wrappie {
-  padding: 4rem;
+  padding: 4rem 4rem 2rem;
   /* background: #f2f2f2; */
   /* background: black; */
 }
@@ -232,6 +280,22 @@ export default {};
   position: relative;
 }
 
+.griid .person .ber {
+  height: 300px;
+}
+
+.griid .person .opaq {
+  position: relative;
+}
+.griid .person .opaq::before {
+  content: "";
+  background: rgba(1, 6, 87, 0.08);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  right: 0;
+  top: 0;
+}
 .faq-heading {
   font-weight: 400;
   font-size: 19px;
@@ -264,7 +328,7 @@ export default {};
 }
 
 .faq {
-  margin: 5rem auto;
+  margin: 3rem auto;
   border-radius: 4px;
   position: relative;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
@@ -334,7 +398,8 @@ export default {};
   display: block;
   background: rgba(255, 255, 255, 255) !important;
   color: #4f7351;
-  height: 225px;
+  height: 255px;
+  overflow: scroll;
   transition: height 0.8s;
   -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }

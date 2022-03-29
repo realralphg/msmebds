@@ -7,32 +7,32 @@
   </div>
 
   <!-- First Section  -->
-  <div class="row web container q-my-xl">
+  <div class="row web items-center container q-my-xl">
     <div class="col-md-6 col-sm-12 col-xs-12 q-my-xl">
       <h3 class="text-bold text-info">Skilledman.Ng</h3>
       <p class="q-my-md">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque animi
-        dolor veritatis cum, ducimus illum. Cumque similique, labore aperiam
-        odit quibusdam ab numquam voluptatibus quae eveniet totam dignissimos
-        nesciunt accusamus!
+        Skilledman is an innovative ICT Solution designed to onboard only duly
+        assessed, certified and competent artisans and technicians to leverage
+        innovative technology solution to deliver professional TVET Services via
+        a Web-based and Mobile-Enabled Service Platform.
       </p>
-      <div class="row">
-        <!-- <q-btn
+      <!-- <div class="row">
+        <q-btn
           label="View More"
           style="background-color: #00eaab; width: 40%; padding: 1rem"
           icon-right="arrow_forward"
-        /> -->
-        <!-- <q-img src="Vector 11.png" /> -->
-      </div>
+        />
+        <q-img src="Vector 11.png" />
+      </div> -->
     </div>
 
-    <div class="col-md-6 q-py-lg q-my-lg col-sm-12 col-xs-12">
+    <div class="col-md-6 col-sm-12 col-xs-12">
       <q-img src="/images/grow3.png" class="img" />
     </div>
   </div>
 
   <!-- Second Section  -->
-  <div class="row flexer container web q-my-xl">
+  <div class="row flexer items-center container web q-my-xl">
     <div class="col-md-6 q-py-lg q-my-lg col-sm-12 col-xs-12">
       <q-img src="/images/grow2.png" class="img" />
     </div>
@@ -49,14 +49,14 @@
         understanding, cooperation, collaboration, motivation and patronage on a
         wider and broader spectrum.
       </p>
-      <div class="row">
+      <!-- <div class="row">
         <q-btn
           label="View More"
           style="background-color: #00eaab"
           icon-right="arrow_forward"
         />
-        <!-- <q-img src="/assets/Vector 11.png" /> -->
-      </div>
+        <q-img src="/assets/Vector 11.png" />
+      </div> -->
     </div>
   </div>
 
@@ -99,6 +99,11 @@ p {
 
 .web {
   padding: 6rem 0;
+}
+
+.img {
+  width: 80%;
+  height: 550px;
 }
 /* .project_hero {
   width: 100%;

@@ -6,20 +6,16 @@
 
     <div class="wrapp container">
       <div class="left">
-        <h5 class="text-weight-bold">About Us</h5>
+        <h5 class="text-weight-bold">Our Associates</h5>
         <p>
-          <span class="text-primary"
-            >Business Development Services Limited</span
-          >
-          <br />
-          is a Business Development Service Facilitator and Provider Firm.
-          <br />
-          We are committed to providing innovative and cutting-edge business
-          <br />
-          development services to enterprise operators.
+          In line with our philosophy of
+          <span class="text-weight-bold">“Doing Business Made Easy”</span> , We
+          work with our Associates to provide innovative end to end Business
+          Development Services (BDS) to members of the
+          <span class="text-weight-bold"> MSME Business Club.</span>
         </p>
         <div class="bts">
-          <q-btn class="q-py-md q-px-xl bg-primary"> View more </q-btn>
+          <!-- <q-btn class="q-py-md q-px-xl bg-primary"> View more </q-btn> -->
         </div>
         <img class="vec" src="/images/viv.png" alt="" />
       </div>
@@ -41,7 +37,7 @@ export default {};
 <style scoped>
 .hero {
   height: 55vh;
-  background: url("/images/associates.png");
+  background: url("/images/associates.png") no-repeat center center/cover;
   position: relative;
 }
 

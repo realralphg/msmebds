@@ -7,7 +7,7 @@
   </div>
 
   <!-- First Section  -->
-  <div class="row nuxt container">
+  <div class="row nuxt items-center container">
     <div class="col-md-6 col-sm-12 col-xs-12 text-h6 text">
       <p>
         The Growth Board is an initiative of the Nigerian Stock Exchange (NSE)
@@ -36,7 +36,7 @@
       <h4 class="q-my-xl objectives text-bold">The Objectives</h4>
     </div>
 
-    <div class="row container">
+    <div class="row items-center container">
       <!-- Image Div  -->
       <div class="col-md-6 col-sm-12 col-xs-12 container">
         <div class="image-container">
@@ -45,7 +45,7 @@
       </div>
 
       <!-- Text Div  -->
-      <div class="col-md-6 col-sm-12 col-xs-12 write_up">
+      <div class="col-md-6 col-sm-12 pod col-xs-12 q-pl-xl write_up">
         <!-- <ul>
           <li class="row justify-evenly"> <span class=""> <q-btn round flat :ripple="false"  icon="arrow_forward" size="1rem" class="arrw" /> </span> <p class="q-my-auto">Helllllloooo</p> </li>
           <li class="row justify-evenly"> <span class=""> <q-btn round flat :ripple="false"  icon="arrow_forward" size="1rem" class="arrw" /> </span> <p class="q-my-auto">Helllllloooo</p> </li>
@@ -60,8 +60,9 @@
           </div>
           <p>
             <span
-              >quibusdam doloribus ad ullam hic quae voluptatum autem nulla.
-              Ipsum quisquam saepe tenetur expedita?</span
+              >To encourage companies with high growth potential to seize the
+              opportunity of raising long term capital and to promote
+              liquidity.</span
             >
           </p>
         </div>
@@ -73,8 +74,8 @@
           </div>
           <p>
             <span
-              >quibusdam doloribus ad ullam hic quae voluptatum autem nulla.
-              Ipsum quisquam saepe tenetur expedita?</span
+              >To cater to various market segments and to ensure all spectrum of
+              businesses/companies in various growth phases can be listed.</span
             >
           </p>
         </div>
@@ -86,8 +87,8 @@
           </div>
           <p>
             <span
-              >quibusdam doloribus ad ullam hic quae voluptatum autem nulla.
-              Ipsum quisquam saepe tenetur expedita?</span
+              >To highlight the benefits available in the capital market for
+              Start-Ups, MSMEs and Technology companies.</span
             >
           </p>
         </div>
@@ -98,10 +99,10 @@
             <!-- <div class="short_arrow"></div> -->
           </div>
           <p>
-            <span
-              >quibusdam doloribus ad ullam hic quae voluptatum autem nulla.
-              Ipsum quisquam saepe tenetur expedita?</span
-            >
+            <span>
+              To provide market operators with a platform and access to a
+              potential pipeline of companies for listing on The NSE.​
+            </span>
           </p>
         </div>
       </div>
@@ -129,7 +130,7 @@ export default {
 <style scoped>
 .hero {
   height: 55vh;
-  background: url("/images/growthb.png");
+  background: url("/images/growthb.png") no-repeat center center/cover;
   position: relative;
 }
 
@@ -174,6 +175,7 @@ export default {
   align-items: center;
   border-radius: 50%;
 }
+
 /* ul {
   margin: none;
   list-style: none;
@@ -330,6 +332,16 @@ h2::before {
 @media (max-width: 800px) {
   h2 {
     font-size: 2rem;
+    padding-left: 3rem;
+  }
+  .pod {
+    padding: 0 !important;
+  }
+}
+
+@media (max-width: 400px) {
+  h2 {
+    font-size: 1.6rem;
   }
 }
 </style>

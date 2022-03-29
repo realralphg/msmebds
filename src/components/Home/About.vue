@@ -83,6 +83,14 @@ p span {
   font-family: "FontAwesome";
 }
 
+.right img {
+  width: 80%;
+  display: flex;
+
+  text-align: center;
+  margin: 0 auto;
+}
+
 @media (max-width: 800px) {
   .wrapp {
     grid-template-columns: 1fr;

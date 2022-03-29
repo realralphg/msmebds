@@ -16,7 +16,9 @@ const routes = [
 
       { path: '/growth', component: () => import('pages/Growth.vue') },
       { path: '/busdev', component: () => import('pages/Busdev.vue') },
-      { path: '/joinmsme', component: () => import('pages/Joinmsme.vue') }
+      { path: '/joinmsme', component: () => import('pages/Joinmsme.vue') },
+      { path: '/greenjacket', component: () => import('pages/Greenjac.vue') }
+
 
 
 

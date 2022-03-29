@@ -20,7 +20,25 @@ body {
   font-size: 18px;
   font-family: "Montserrat", sans-serif !important;
 }
+.splide__arrow svg {
+  display: none;
+}
+.what-we-do::-webkit-scrollbar {
+  /* background: #189b78; */
+  width: 0.3rem;
+}
 
+/* .what-we-do::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+} */
+
+.what-we-do::-webkit-scrollbar-thumb {
+  background-color: #010657;
+  /* outline: 1px solid blue; */
+}
+.what-we-do {
+  overflow: scroll;
+}
 a {
   text-decoration: none;
 }

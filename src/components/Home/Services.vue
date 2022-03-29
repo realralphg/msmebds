@@ -69,8 +69,8 @@ p {
   font-size: 1.3rem;
 }
 .wrappie {
-  margin: 7rem auto;
-  padding: 6rem 0;
+  margin: 3rem auto;
+  padding: 4rem 0;
 }
 .holdie {
   display: grid;
@@ -132,7 +132,7 @@ p {
 
 .two-ul li {
   position: relative;
-  margin: 2.5rem 0;
+  margin: 1.5rem 0;
   display: flex;
   align-items: center;
 }
@@ -179,7 +179,7 @@ p {
   grid-template-columns: repeat(2, 1fr);
   gap: 2.5rem;
 
-  margin: 3rem 0;
+  /* margin: 3rem 0; */
 }
 
 .right .two-ul p {
@@ -190,11 +190,15 @@ p {
   padding: 1rem;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1300px) {
   .fles {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
+  }
+  .holdie .left {
+    height: fit-content;
+    margin: 2rem 0;
   }
 }
 

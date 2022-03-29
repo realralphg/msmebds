@@ -10,9 +10,7 @@
           >
         </h3>
         <p class="q-my-lg">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-          fuga ullam rerum enim. Natus consequuntur recusandae aspernatur minima
-          non deleniti.
+          Building the next generation of expert MSME service providers.
         </p>
         <div class="bts">
           <q-btn to="/busdev" class="q-py-md q-px-xl bg-primary">
@@ -31,7 +29,7 @@
     <div class="twoo">
       <div class="wrapp two-one container">
         <div class="right">
-          <img src="/images/asso2.png" alt="" />
+          <img class="righty" src="/images/ol.png" alt="" />
           <img class="afro" src="/images/afro.png" alt="" />
         </div>
         <div class="left q-pl-xl">
@@ -41,9 +39,8 @@
             <span class="text-info text-weight-bold"> MSME Business Club</span>
           </h3>
           <p class="q-my-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-            fuga ullam rerum enim. Natus consequuntur recusandae aspernatur
-            minima non deleniti.
+            Professional Career Development & Access To Job Opportunities For
+            Smart Young Professionals In The MSME Service Sector.
           </p>
           <div class="bts">
             <q-btn to="/joinmsme" class="q-py-md q-px-xl bg-primary">
@@ -72,7 +69,9 @@
             and promote liquidity.
           </p>
           <div class="bts">
-            <q-btn class="q-py-md q-px-xl bg-primary"> View more </q-btn>
+            <q-btn to="/greenjacket" class="q-py-md q-px-xl bg-primary">
+              View more
+            </q-btn>
 
             <img class="vec" src="/images/vec.png" alt="" />
           </div>
@@ -81,7 +80,7 @@
           <img src="/images/gree.png" alt="" />
           <div class="green">
             <img src="/images/gree1.png" alt="" />
-            <img src="/images/asso2.png" alt="" />
+            <img src="/images/ol2.png" alt="" />
           </div>
         </div>
       </div>
@@ -96,9 +95,9 @@
           <span class="text-info text-weight-bold">The Growth Board</span>
         </h3>
         <p class="q-my-lg">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-          fuga ullam rerum enim. Natus consequuntur recusandae aspernatur minima
-          non deleniti.
+          The Growth Board is an initiative of the Nigerian Stock Exchange (NSE)
+          established to provide opportunity for SMEs with growth potentials to
+          raise capital and liquidity to grow their business.
         </p>
         <div class="bts">
           <q-btn to="/growth" class="q-py-md q-px-xl bg-primary">
@@ -176,7 +175,7 @@ export default {};
 
 <style scoped>
 .wrapp {
-  padding-top: 5rem;
+  padding-top: 3rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
@@ -232,9 +231,13 @@ export default {};
 
 .twoo {
   background: rgba(1, 6, 87, 0.08);
-  padding: 5rem 0;
+  padding: 1rem 0;
   margin-top: 3rem;
   position: relative;
+}
+
+.twoo .righty {
+  width: 80%;
 }
 
 .two-bg {
@@ -354,7 +357,7 @@ p span {
     flex-direction: column-reverse;
   }
   .padde {
-    padding: 13rem 0 0;
+    padding: 19rem 0 0;
   }
   h3 {
     font-size: 2rem;

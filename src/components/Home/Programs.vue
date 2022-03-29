@@ -25,7 +25,7 @@
                   Building the Next Generation of Expert MSME Service Providers
                 </p>
 
-                <q-btn class="btn">Learn More</q-btn>
+                <q-btn to="/busdev" class="btn">Learn More</q-btn>
               </div>
             </div>
           </SplideSlide>
@@ -42,7 +42,7 @@
                   For Smart Young Professionals In the MSME Service Sector.
                 </p>
 
-                <q-btn class="btn">Learn More</q-btn>
+                <q-btn to="/joinmsme" class="btn">Learn More</q-btn>
               </div>
             </div>
           </SplideSlide>
@@ -60,11 +60,11 @@
                   exponential growth potentials that have been successfully.....
                 </p>
 
-                <q-btn class="btn">Learn More</q-btn>
+                <q-btn to="/greenjacket" class="btn">Learn More</q-btn>
               </div>
             </div>
           </SplideSlide>
-          <SplideSlide>
+          <!-- <SplideSlide>
             <div class="wrapp">
               <img src="/images/program2.png" alt="Sample 1" />
               <div class="detr">
@@ -76,13 +76,13 @@
                   Building the Next Generation of Expert MSME Service Providers
                 </p>
 
-                <q-btn class="btn">Learn More</q-btn>
+                <q-btn to="/" class="btn">Learn More</q-btn>
               </div>
             </div>
-          </SplideSlide>
-          <SplideSlide>
+          </SplideSlide> -->
+          <!-- <SplideSlide>
             <img src="image2.jpg" alt="Sample 2" />
-          </SplideSlide>
+          </SplideSlide> -->
         </Splide>
       </div>
     </div>
@@ -108,13 +108,13 @@ export default defineComponent({
       perPage: 3,
       arrows: true,
       breakpoints: {
-        1000: {
+        1400: {
           perPage: 3,
         },
-        800: {
+        1300: {
           perPage: 2,
         },
-        600: {
+        800: {
           perPage: 1,
         },
       },
@@ -130,7 +130,9 @@ p {
   margin-bottom: 0;
   font-size: 1.1rem;
 }
-
+.hold {
+  margin: 7rem auto 0;
+}
 .wrapp {
   display: flex;
   flex-direction: column;
@@ -155,7 +157,7 @@ p {
 
 .wrapp .detr p {
   margin-bottom: 2rem;
-  height: 70px;
+  height: 90px;
 }
 
 .btn {
@@ -197,5 +199,13 @@ p {
   /* .holder {
     padding-top: 11rem;
   } */
+  .wrapp .detr p {
+    margin-bottom: 2rem;
+    height: 70px;
+  }
+  .right .two-ul[data-v-7cd368ae] {
+    gap: 0.5rem;
+    /* margin: 3rem 0; */
+  }
 }
 </style>

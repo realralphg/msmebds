@@ -19,10 +19,10 @@
           <li><p class="q-pl-xl">Training & Technical Assistance</p></li>
         </ul>
       </div>
-      <img class="bgt" src="/images/bg1.png" alt="" />
 
       <!-- <img class="bgt" src="/images/bg1.png" alt="" /> -->
     </div>
+    <img class="bgt" src="/images/bg1.png" alt="" />
   </div>
 </template>
 <script>
@@ -36,6 +36,7 @@ export default {};
   margin: 3rem 0;
   position: relative;
   /* padding: 6rem 0; */
+  position: relative;
   background: linear-gradient(116.61deg, #010657 7.75%, #030649 70.38%);
 }
 p {
@@ -51,7 +52,7 @@ p {
 .bgt {
   width: 150px;
   position: absolute;
-  right: -5%;
+  right: 0%;
   bottom: -7%;
 }
 .two-ul {

@@ -2,17 +2,17 @@
   <div class="hold">
     <div class="wrapp first container">
       <div class="left">
-        <!-- <h5 class="text-weight-bold">About Us</h5> -->
-        <h3>
+        <!-- <h5 class="text-weig
+        ht-bold">About Us</h5> -->
+
+        <h3 class="h3">
           <span> Become A </span>
           <span class="text-info text-weight-bold"
             >Business Development Service Fellow</span
           >
         </h3>
         <p class="q-my-lg">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-          fuga ullam rerum enim. Natus consequuntur recusandae aspernatur minima
-          non deleniti.
+          BUILDING THE NEXT GENERATION OF EXPERT MSME SERVICE PROVIDERS.
         </p>
         <div class="bts">
           <q-btn class="q-py-md q-px-xl bg-primary"> View more </q-btn>
@@ -37,42 +37,57 @@
       <div class="big-con container">
         <div class="itema">
           <h5 class="text-weight-bold text-primary">
-            Lorem ipsum dolor sit amet.
+            The BDS Fellowship Programme
           </h5>
           <p class="text-white">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint,
-            voluptatum. Officia iure quidem voluptas recusandae ducimus quaerat.
-            Totam, ullam ipsum.
+            Besides Access to Finance, Nigeria’s over 41.5 million MSMEs [held
+            back by critical Enterprise Growth Inhibitors (EGIs)] are requiring
+            a wide range of Non-Financial Services that positions them to grow
+            and expand their businesses with ease. <br />
+            <br />
+            We are developing a Team of competent and highly inspired Young BDS
+            Professionals to provide innovative Demand Driven Services and
+            Market Oriented Non-Financial Services for Growth-Oriented
+            Enterprises (GOE) across Nigeria.
+          </p>
+        </div>
+        <div class="itema">
+          <h5 class="text-weight-bold text-primary">Comprehensive Training</h5>
+          <p class="text-white">
+            During the course of the programme, Fellows will undergo a
+            comprehensive Entrepreneurship, Business Development Services (BDS),
+            Financial Inclusion, Financial Literacy and BDS Voucher
+            Administration Training. This will equip Young BDS professionals
+            with practical BDS frameworks and tools to deliver non-financial
+            services to MSME operators.
           </p>
         </div>
         <div class="itema">
           <h5 class="text-weight-bold text-primary">
-            Lorem ipsum dolor sit amet.
+            Internship Opportunities
           </h5>
           <p class="text-white">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint,
-            voluptatum. Officia iure quidem voluptas recusandae ducimus quaerat.
-            Totam, ullam ipsum.
+            After the Training and Certification Process, the Young BDS
+            Professionals will be deployed to the field to acquire practical BDS
+            field experience by creating awareness and stimulating demand for
+            BDS among MSME Operators and be challenged to identify and provide
+            measurable impact oriented BDS to Growth-Oriented Enterprises (GOEs)
+            at a ratio of One (1) Fellow to Ten (10) Enterprise Operators under
+            effective professional supervision.
+            <br />
+            <br />
+            In this maiden-edition of the BDS Fellows Programme, we are
+            targeting 100,000 potential Young BDS Professionals for enrollment.
+            This will translate to providing direct, impact-oriented BDS for
+            1,000,000 MSMEs across the country during this period.
           </p>
         </div>
         <div class="itema">
-          <h5 class="text-weight-bold text-primary">
-            Lorem ipsum dolor sit amet.
-          </h5>
+          <h5 class="text-weight-bold text-primary">Duration</h5>
           <p class="text-white">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint,
-            voluptatum. Officia iure quidem voluptas recusandae ducimus quaerat.
-            Totam, ullam ipsum.
-          </p>
-        </div>
-        <div class="itema">
-          <h5 class="text-weight-bold text-primary">
-            Lorem ipsum dolor sit amet.
-          </h5>
-          <p class="text-white">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint,
-            voluptatum. Officia iure quidem voluptas recusandae ducimus quaerat.
-            Totam, ullam ipsum.
+            This is a 12-month programme. We are currently receiving application
+            into the 2021/22 Cohort. Click the button below to apply for the
+            fellowship now.
           </p>
         </div>
         <div class="btnn">
@@ -277,6 +292,15 @@ p span {
   }
   .padde {
     padding: 10rem 0 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .h3 {
+    font-size: 2rem;
+  }
+  .wrapp {
+    margin-top: 2rem;
   }
 }
 </style>

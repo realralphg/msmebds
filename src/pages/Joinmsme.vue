@@ -9,12 +9,11 @@
             <span class="text-info text-weight-bold"> MSME Business Club</span>
           </h3>
           <p class="q-my-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-            fuga ullam rerum enim. Natus consequuntur recusandae aspernatur
-            minima non deleniti.
+            Professional Career Development & Access To Job Opportunities For
+            Smart Young Professionals In The MSME Service Sector.
           </p>
           <div class="bts">
-            <q-btn to="/joinmsme" class="q-py-md q-px-xl bg-primary">
+            <q-btn to="/joinmsme" class="q-py-md q-px-xl q-mt-lg bg-primary">
               View more
             </q-btn>
 
@@ -91,19 +90,22 @@
           <span class="text-dark text-weight-bold"> MSME Business Club</span>
         </h5>
         <p class="q-my-lg">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-          fuga ullam rerum enim. Natus consequuntur recusandae aspernatur minima
-          non deleniti.
+          This is a Professional Membership Association of BDS Practitioners to
+          deepen existing business relationships and forge new contacts
+          regularly. <br />
+          <br />
+          It provides opportunity for members to converge, engage, inspire and
+          motivate one another as well as network with professional colleagues.
         </p>
 
-        <h5>
+        <h5 class="q-my-xl">
           <!-- <span> Join the</span> -->
           <span class="text-dark text-weight-bold">Share an Exchange</span>
         </h5>
         <p class="q-my-lg">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-          fuga ullam rerum enim. Natus consequuntur recusandae aspernatur minima
-          non deleniti.
+          Members leverage the Club platform to share and exchange professional
+          knowledge and practical experiences, discuss emerging trends and
+          innovations to enhances the practice of BDS delivery.
         </p>
         <div class="bts">
           <img class="vec" src="/images/vec.png" alt="" />
@@ -116,6 +118,9 @@
     </div>
 
     <div class="q-gutter-y-md griid">
+      <div class="btm text-center">
+        <h5>Membership Benefits</h5>
+      </div>
       <div class="two-ul container">
         <ul>
           <li><p class="q-ml-lg">Alternative Financing Mechanisms</p></li>
@@ -165,6 +170,10 @@ export default {
   z-index: 200;
 }
 
+p {
+  margin-bottom: 0;
+}
+
 .padds {
   padding: 0 !important;
 }
@@ -190,10 +199,28 @@ export default {
   color: #ffff;
   margin: 4rem 0;
 }
+
+.griid h5 {
+  position: relative;
+  font-size: 2.3rem;
+  padding-left: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.griid h5::before {
+  /* content: url("/images/ae.png"); */
+  content: "\f061";
+  position: absolute;
+  text-align: center;
+  color: #00eaab;
+  width: 200px;
+  left: -2%;
+  font-family: "FontAwesome";
+}
 .two-ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 2.5rem;
+  gap: 1rem;
 
   margin: 3rem auto;
 }
