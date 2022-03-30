@@ -21,7 +21,7 @@
         </div>
       </div>
       <div class="right">
-        <img src="/images/about.png" alt="" />
+        <img src="/images/abo.png" alt="" />
       </div>
     </div>
   </div>
@@ -89,6 +89,21 @@ p span {
 
   text-align: center;
   margin: 0 auto;
+}
+.right {
+  position: relative;
+}
+
+.right::before {
+  content: "";
+  position: absolute;
+  text-align: center;
+  background: #00eaab;
+  height: 200px;
+  width: 200px;
+  right: -4%;
+  z-index: -1;
+  top: -4%;
 }
 
 @media (max-width: 800px) {

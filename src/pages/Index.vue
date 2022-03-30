@@ -2,7 +2,10 @@
   <q-page class="">
     <Hero />
     <About />
-    <Mission />
+    <!-- <Mission /> -->
+    <Vision />
+    <Cards />
+
     <Services />
     <Programs />
     <Contact />
@@ -14,7 +17,9 @@
 <script>
 import Hero from "../components/Home/Hero.vue";
 import About from "../components/Home/About.vue";
-import Mission from "../components/Home/Mission.vue";
+import Vision from "../components/Home/Vision.vue";
+import Cards from "../components/Home/Cards.vue";
+
 import Services from "../components/Home/Services.vue";
 import Contact from "../components/Home/Contact.vue";
 import Sponsors from "../components/Home/Sponsors.vue";
@@ -28,10 +33,11 @@ export default defineComponent({
   components: {
     Hero,
     About,
-    Mission,
+    Vision,
     Services,
     Contact,
     Sponsors,
+    Cards,
     Programs,
     Footer,
   },

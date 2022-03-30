@@ -13,21 +13,21 @@
           </div>
           <div class="der">
             <h6 class="text-white">Dr. Peter Ayim</h6>
-            <p class="text-primary">CEO</p>
+            <p class="text-primary">CEO / Project Director</p>
             <img src="/images/bg.png" alt="" />
           </div>
         </div>
         <div class="person">
           <div class="opaq">
-            <img class="ber" src="/images/team3.png" alt="" />
+            <img class="ber" src="/images/team4.jpg" alt="" />
           </div>
           <div class="der">
-            <h6 class="text-white">Sir. Zics Asare</h6>
-            <p class="text-primary">Program Lead</p>
+            <h6 class="text-white">Abdullahi Raheem</h6>
+            <p class="text-primary">Project Manager</p>
             <img src="/images/bg.png" alt="" />
           </div>
         </div>
-        <div class="person">
+        <!-- <div class="person">
           <div class="opaq">
             <img class="ber" src="/images/team1.png" alt="" />
           </div>
@@ -36,13 +36,13 @@
             <p class="text-primary">Partnership Lead</p>
             <img src="/images/bg.png" alt="" />
           </div>
-        </div>
+        </div> -->
         <div class="person">
           <div class="opaq">
-            <img class="ber" src="/images/profile.png" alt="" />
+            <img class="ber" src="/images/ralphhh.jpg" alt="" />
           </div>
           <div class="der">
-            <h6 class="text-white">Andrew Nwobodo</h6>
+            <h6 class="text-white">Isah Raphael</h6>
             <p class="text-primary">ICT Lead</p>
             <img src="/images/bg.png" alt="" />
           </div>

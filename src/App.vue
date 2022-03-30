@@ -33,7 +33,9 @@ body {
 } */
 
 .what-we-do::-webkit-scrollbar-thumb {
-  background-color: #010657;
+  /* background-color: #00eaab; */
+  background: linear-gradient(116.61deg, #010657 7.75%, #030649 70.38%);
+
   /* outline: 1px solid blue; */
 }
 .what-we-do {

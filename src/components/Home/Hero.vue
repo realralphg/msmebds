@@ -4,10 +4,11 @@
       <div class="hold">
         <img class="cur q-pr-xl" src="images/curve.png" alt="" />
 
-        <q-btn class="q-px-xl bg-primary q-mb-lg q-py-sm">MSME</q-btn>
+        <!-- <q-btn class="q-px-xl bg-primary q-mb-lg q-py-sm">MSME</q-btn> -->
 
         <h2 class="text-h3 q-my-xl text-white text-weight-bold">
-          BusinessBusiness Development
+          <span class="text-primary">MSME</span>
+          Business Development Services
         </h2>
 
         <p class="q-pt-xl pad q-pb-lg text-white">
@@ -19,11 +20,13 @@
         <div class="details q-py-xl">
           <img src="images/arr.png" alt="" class="a" />
           <div class="two">
-            <q-btn class="q-px-xl q-py-sm bg-primary bt text-black"
+            <q-btn to="/about" class="q-px-xl q-py-sm bg-primary bt text-black"
               >Join Now</q-btn
             >
 
-            <q-btn class="q-px-xl q-py-sm learn bg-accent bt text-white"
+            <q-btn
+              to="/programs"
+              class="q-px-xl q-py-sm learn bg-accent bt text-white"
               >Learn More</q-btn
             >
           </div>

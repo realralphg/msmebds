@@ -24,22 +24,19 @@
 
             <!-- First Location -->
             <div>
-              <p class="text-primary">Abuja</p>
+              <p class="text-primary">Abuja Office</p>
               <p>
-                Suite 207, 2nd Floor, MKK Plaza, No. 22, I.T. Igbani Street,
-                Jabi District, FCT, Abuja +234 809 318 8074 <br />
+                80, Ralph Shodeinde Street, 2nd Floor, Kastina House, Abuja -
+                FCT.<br />
 
-                <span class="text-primary">enquiries@msmebds.org</span>
+                <span class="text-primary">enquiries@msmebds.ng</span>
               </p>
             </div>
 
             <!--Second Location -->
             <div>
-              <p class="text-primary">Zonal Office - North East</p>
-              <p>
-                Suite 21 Kodini Plaza Opposite Bekaji Primary School Jimeta
-                Yola. Adamawa State
-              </p>
+              <p class="text-primary">Kaduna Office</p>
+              <p>31, Gwari Avenue, Barnawa, Kaduna.</p>
             </div>
           </div>
         </div>

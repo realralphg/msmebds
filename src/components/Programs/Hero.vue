@@ -12,7 +12,7 @@ export default {};
 
 <style scoped>
 .hero {
-  height: 50vh;
+  height: 45vh;
   background: url("/images/prog.png"), no-repeat center center/cover;
   position: relative;
 }
