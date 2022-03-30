@@ -86,7 +86,7 @@ export default {};
   /* color: var(--text-color); */
   padding: 1rem;
   /* border: 2px solid rgba(77, 77, 77, 0.18); */
-  min-height: 450px;
+  min-height: 400px;
   height: 400px;
   /* box-shadow: 2px 10px 10px rgba(197, 190, 190, 0.97); */
   transition: all 0.3s ease-in-out;

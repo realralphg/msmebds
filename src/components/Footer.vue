@@ -29,7 +29,6 @@
                 80, Ralph Shodeinde Street, 2nd Floor, Kastina House, Abuja -
                 FCT.<br />
 
-                <span class="text-primary">enquiries@msmebds.ng</span>
               </p>
             </div>
 
@@ -50,9 +49,7 @@
           <p>+234 706 768 1686</p>
 
           <div class="row">
-            <q-btn class="text-primary"
-              ><i class="fa-brands fa-2x fa-instagram"></i
-            ></q-btn>
+            
             <q-btn class="text-primary"
               ><i class="fa-brands fa-2x fa-twitter"></i
             ></q-btn>
@@ -61,7 +58,23 @@
             ></q-btn>
             <q-btn class="text-primary"
               ><i class="fa-brands fa-2x fa-facebook"></i
-            ></q-btn>
+            ></q-btn> <br> <br>
+            <div class="mail">
+              <q-btn
+                class="q-mt-sm text-primary"
+                no-caps
+                small
+                outline
+                icon="mail"
+                type="a"
+                href="https://www.msmebds.ng/webmail/"
+                target="_blank"
+              >
+                <span class="q-pl-sm">Check Mail</span>
+              </q-btn> <br>
+                <span class="text-primary">enquiries@msmebds.ng</span>
+            </div>
+
           </div>
         </div>
       </div>
