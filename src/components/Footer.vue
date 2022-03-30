@@ -20,7 +20,7 @@
         <div class="col-md-4 q-px-md col-sm-12 col-xs-12">
           <div>
             <ShortArrow />
-            <h4 class="text-weight-bold">Our Offices</h4>
+            <h5 class="text-weight-bold">Our Offices</h5>
 
             <!-- First Location -->
             <div>
@@ -44,7 +44,7 @@
         <!-- Third -->
         <div class="col-md-4 q-px-md col-sm-12 col-xs-12">
           <ShortArrow />
-          <h4 class="text-weight-bold">Contact Us</h4>
+          <h5 class="text-weight-bold">Contact Us</h5>
           <p>+234 906 550 2237</p>
           <p>+234 806 121 5036</p>
           <p>+234 706 768 1686</p>
@@ -89,14 +89,14 @@ export default {};
   padding: 1rem;
 }
 
-h4 {
+h5 {
   position: relative;
   font-weight: 700;
   margin: 1rem 0 1.5rem;
-  font-size: 2.3rem;
+  font-size: 2rem;
   padding-left: 2.51rem;
 }
-h4::after {
+h5::after {
   /* content: url(/images/are.png); */
   content: "\f061";
   position: absolute;

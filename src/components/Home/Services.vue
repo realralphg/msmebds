@@ -43,16 +43,25 @@
               <li><p class="q-ml-lg">Training & Technical Assistance</p></li>
             </ul>
           </div>
+          <span v-if="readMore"></span><span v-else> </span><p v-show="readMore">As practitioners in the MSME sector, we not only understand the
+            dynamics of running a successful business but we are in tune with
+            the daily challenges of enterprise operators face hence our
+            commitment to provide innovative and cutting-edge business
+            development services to MSMEs.</p><q-btn flat class="q-pa-sm q-my-lg text-primary" @click="readMore =! readMore"
+                  color="success"
+                  small
+                  ><span v-if="readMore">Show Less</span>
+              <span v-else>Show More</span></q-btn> <br>
 
-          <p>
+          <!-- <p>
             As practitioners in the MSME sector, we not only understand the
             dynamics of running a successful business but we are in tune with
             the daily challenges of enterprise operators face hence our
             commitment to provide innovative and cutting-edge business
             development services to MSMEs.
-          </p>
+          </p> -->
 
-          <q-btn class="bg-primary btn q-mt-lg text-white">Learn More</q-btn>
+          <q-btn to="/services" class="bg-primary btn q-mt-lg text-dark">Learn More</q-btn>
         </div>
       </div>
     </div>
@@ -60,21 +69,33 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data(){
+    return{
+    readMore:false
+
+    }
+  }
+};
 </script>
 
 <style scoped>
+img{
+  width: 100%;
+}
 p {
   margin-bottom: 0;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 .wrappie {
   margin: 3rem auto;
-  padding: 4rem 0;
+  padding: 4rem 0 3rem;
 }
 .holdie {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+
+
   gap: 3rem;
 }
 .holdie .left {
@@ -157,7 +178,7 @@ p {
   text-align: center;
   position: relative;
   margin: 0 0 1.4rem;
-  font-size: 2.3rem;
+  font-size: 2rem;
   font-weight: 700;
   padding-left: 2rem;
 }
@@ -190,7 +211,7 @@ p {
   padding: 1rem;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 800px) {
   .fles {
     display: flex;
     flex-direction: column-reverse;
@@ -238,5 +259,10 @@ p {
   .right .two-ul p {
     font-size: 15px;
   }
+
+  .wrappie {
+  margin: 3rem auto 0;
+  padding: 4rem 0 0rem;
+}
 }
 </style>

@@ -52,11 +52,11 @@ export default {};
 }
 
 p {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 p span {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 /* .right {

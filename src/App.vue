@@ -17,7 +17,7 @@ export default defineComponent({
 }
 body {
   /* overflow-x: hidden; */
-  font-size: 18px;
+  font-size: 16px;
   font-family: "Montserrat", sans-serif !important;
 }
 .splide__arrow svg {
@@ -31,6 +31,9 @@ body {
 /* .what-we-do::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 } */
+.what-we-do{scrollbar-color: #299276 #C2D2E4;;scrollbar-width: thin;}
+
+/* <color> values */
 
 .what-we-do::-webkit-scrollbar-thumb {
   /* background-color: #00eaab; */
@@ -39,7 +42,7 @@ body {
   /* outline: 1px solid blue; */
 }
 .what-we-do {
-  overflow: scroll;
+  overflow-y: scroll;
 }
 a {
   text-decoration: none;
@@ -55,7 +58,7 @@ li {
 
 .nav .q-tab__label {
   text-transform: capitalize;
-  font-size: 1.2rem;
+  font-size: 1rem;
   /* color: #C4C4C4; */
 }
 

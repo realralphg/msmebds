@@ -25,7 +25,7 @@ export default {
 }
 p {
   margin-bottom: 0;
-  font-size: 1.8rem;
+  font-size: 1.3rem;
 }
 .griid {
   color: #fff;

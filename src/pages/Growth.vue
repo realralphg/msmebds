@@ -33,7 +33,7 @@
     <!-- Header and arrow  -->
     <div class="row justify-center">
       <!-- <Arrow /> -->
-      <h4 class="q-my-xl objectives text-bold">The Objectives</h4>
+      <h5 class="q-my-xl objectives text-bold">The Objectives</h5>
     </div>
 
     <div class="row items-center container">
@@ -312,7 +312,7 @@ h2 {
 
 h2 {
   position: relative;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   padding-left: 6rem;
   margin-bottom: 1.5rem;
   top: 50%;

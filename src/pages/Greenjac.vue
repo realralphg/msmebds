@@ -13,10 +13,10 @@
   <div class="wrapp container">
     <div class="left">
       <!-- <h5 class="text-weight-bold">About Us</h5> -->
-      <h3>
+      <h5>
         <!-- <span> Become A </span> -->
         <span class="text-info text-weight-bold">The Green Jacket Program</span>
-      </h3>
+      </h5>
       <p class="q-my-lg">
         The Green Jacket is the league of elite MSME Brands with exponential
         growth potentials that have been successfully nurtured and handheld to
@@ -178,11 +178,11 @@ export default {
 }
 
 p {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 p span {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .right {
@@ -254,7 +254,7 @@ h2 {
 
 h2 {
   position: relative;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   padding-left: 6rem;
   margin-bottom: 1.5rem;
   top: 50%;

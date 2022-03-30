@@ -6,12 +6,12 @@
 
         <!-- <q-btn class="q-px-xl bg-primary q-mb-lg q-py-sm">MSME</q-btn> -->
 
-        <h2 class="text-h3 q-my-xl text-white text-weight-bold">
+        <h2 class="text-h4 q-mt-xl text-white text-weight-bold">
           <span class="text-primary">MSME</span>
           Business Development Services
         </h2>
 
-        <p class="q-pt-xl pad q-pb-lg text-white">
+        <p class="q-pt-lg pad q-pb-lg text-white">
           Providing a range of business development services to high growth
           potential MSMEs in partnership with MDAs of government and
           international Development Agencies.
@@ -58,7 +58,7 @@ export default {
 
 <style scoped>
 p {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
 }
 .red {
   color: red;

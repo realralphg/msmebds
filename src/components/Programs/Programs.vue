@@ -3,12 +3,12 @@
     <div class="wrapp first container">
       <div class="left">
         <!-- <h5 class="text-weight-bold">About Us</h5> -->
-        <h3>
+        <h5>
           <span> Become A </span>
           <span class="text-info text-weight-bold"
             >Business Development Service Fellow</span
           >
-        </h3>
+        </h5>
         <p class="q-my-lg">
           Building the next generation of expert MSME service providers.
         </p>
@@ -22,7 +22,7 @@
       </div>
       <div class="right">
         <img src="/images/asso2.png" alt="" />
-        <img class="afro" src="/images/afro.png" alt="" />
+        <img class="afroo" src="/images/afro.png" alt="" />
       </div>
     </div>
 
@@ -34,10 +34,10 @@
         </div>
         <div class="left q-pl-xl">
           <!-- <h5 class="text-weight-bold">About Us</h5> -->
-          <h3>
+          <h5>
             <span> Join the</span>
             <span class="text-info text-weight-bold"> MSME Business Club</span>
-          </h3>
+          </h5>
           <p class="q-my-lg">
             Professional Career Development & Access To Job Opportunities For
             Smart Young Professionals In The MSME Service Sector.
@@ -55,12 +55,12 @@
       <div class="wrapp container">
         <div class="left">
           <!-- <h5 class="text-weight-bold">About Us</h5> -->
-          <h3>
+          <h5>
             <!-- <span> Become A </span> -->
             <span class="text-info text-weight-bold"
               >The Green Jacket Program</span
             >
-          </h3>
+          </h5>
           <p class="q-my-lg">
             The Green Jacket is the league of elite MSME Brands with exponential
             growth potentials that have been successfully nurtured and handheld
@@ -90,10 +90,10 @@
     <div class="wrapp container">
       <div class="left">
         <!-- <h5 class="text-weight-bold">About Us</h5> -->
-        <h3>
+        <h5>
           <!-- <span> Become A </span> -->
           <span class="text-info text-weight-bold">The Growth Board</span>
-        </h3>
+        </h5>
         <p class="q-my-lg">
           The Growth Board is an initiative of the Nigerian Stock Exchange (NSE)
           established to provide opportunity for SMEs with growth potentials to
@@ -175,7 +175,7 @@ export default {};
 
 <style scoped>
 .wrapp {
-  padding-top: 3rem;
+  /* padding-top: 1rem; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
@@ -237,7 +237,7 @@ export default {};
 }
 
 .twoo .righty {
-  width: 80%;
+  width: 90%;
 }
 
 .two-bg {
@@ -249,11 +249,11 @@ export default {};
 }
 
 p {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 p span {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .right {
@@ -261,8 +261,12 @@ p span {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+
+.afroo {
+  height: 250px;
+}
 .afro {
-  height: 300px;
+  height: 150px;
 }
 
 .first .right::before {
@@ -302,7 +306,7 @@ p span {
 
 .left h5 {
   position: relative;
-  font-size: 2.3rem;
+  font-size: 2rem;
   padding-left: 3rem;
   margin-bottom: 1.5rem;
 }

@@ -8,34 +8,39 @@
 
         <nav>
           <ul>
-            <q-tabs active-bg-color="primary">
+            <q-tabs active-color='primary'>
               <q-route-tab exact to="/" label="Home" />
               <q-route-tab
-                class="text-secondary nav"
+              exact
+                class=" nav"
                 to="/about"
                 label="About Us"
               />
               <q-route-tab
+              exact
                 active-color="primary"
-                class="text-secondary nav"
+                class="nav"
                 to="/associates"
                 label="Associates"
               />
               <q-route-tab
+              exact
                 active-color="primary"
-                class="text-secondary nav"
+                class="nav"
                 to="/services"
                 label="Services"
               />
               <q-route-tab
+              exact
                 active-color="primary"
-                class="text-secondary nav"
+                class="nav"
                 to="/programs"
                 label="Programs"
               />
               <q-route-tab
+              exact
                 active-color="primary"
-                class="text-secondary nav"
+                class="nav"
                 to="/projects"
                 label="Projects"
               />
@@ -159,7 +164,7 @@ export default defineComponent({
 }
 
 .nav {
-  font-size: 1.3rem !important;
+  font-size: 1rem !important;
 }
 .q-tab__label {
   font-size: 1.3rem !important;

@@ -78,7 +78,7 @@ export default {};
   position: relative;
   font-weight: 700;
   margin: 1rem 0 1.5rem;
-  font-size: 2.3rem;
+  font-size: 2rem;
 }
 .right h5::after {
   /* content: url(/images/are.png); */
@@ -155,14 +155,14 @@ textarea:focus {
 
 @media (max-width: 500px) {
   .log .wrapp p {
-    font-size: 11px;
+    font-size: 1.1rem;
   }
 }
 
 @media (max-width: 400px) {
   .input-wrap .input input:placeholder-shown,
   select {
-    font-size: 14px;
+    font-size: 1.1rem;
   }
 }
 </style>

@@ -9,7 +9,7 @@
   <!-- First Section  -->
   <div class="row web items-center container q-my-xl">
     <div class="col-md-6 col-sm-12 col-xs-12 q-my-xl">
-      <h3 class="text-bold text-info">Skilledman.Ng</h3>
+      <h4 class="text-bold text-info">Skilledman.Ng</h4>
       <p class="q-my-md">
         Skilledman is an innovative ICT Solution designed to onboard only duly
         assessed, certified and competent artisans and technicians to leverage
@@ -38,10 +38,10 @@
     </div>
 
     <div class="col-md-6 col-sm-12 col-xs-12 q-my-auto">
-      <h3 class="text-bold text-info">
+      <h4 class="text-bold text-info">
         The Creative & cultural Entreprenuership Development <br />
         Project
-      </h3>
+      </h4>
       <p class="q-my-md">
         Cultural and Creative Entrepreneurship enhances the promotion of
         cultural capital in a manner that fosters innovation, competitiveness
@@ -98,12 +98,12 @@ p {
 }
 
 .web {
-  padding: 6rem 0;
+  padding: 4rem 0 2rem;
 }
 
 .img {
   width: 80%;
-  height: 550px;
+  height: 450px;
 }
 /* .project_hero {
   width: 100%;
@@ -182,7 +182,7 @@ h2 {
 
 h2 {
   position: relative;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   padding-left: 6rem;
   margin-bottom: 1.5rem;
   top: 50%;

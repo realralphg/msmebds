@@ -5,12 +5,12 @@
         <!-- <h5 class="text-weig
         ht-bold">About Us</h5> -->
 
-        <h3 class="h3">
+        <h5 class="h3">
           <span> Become A </span>
           <span class="text-info text-weight-bold"
             >Business Development Service Fellow</span
           >
-        </h3>
+        </h5>
         <p class="q-my-lg">
           BUILDING THE NEXT GENERATION OF EXPERT MSME SERVICE PROVIDERS.
         </p>
@@ -183,11 +183,11 @@ export default {
 }
 
 p {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 p span {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .right {
@@ -236,7 +236,7 @@ p span {
 
 .left h5 {
   position: relative;
-  font-size: 2.3rem;
+  font-size: 2rem;
   padding-left: 3rem;
   margin-bottom: 1.5rem;
 }

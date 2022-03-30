@@ -15,7 +15,7 @@
           development services to enterprise operators.
         </p>
         <div class="bts">
-          <q-btn class="q-py-md q-px-xl bg-primary"> View more </q-btn>
+          <q-btn to="/about" class="q-py-md q-px-xl bg-primary"> Learn more </q-btn>
 
           <img class="vec" src="/images/vec.png" alt="" />
         </div>
@@ -42,11 +42,11 @@ export default {};
 }
 
 p {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 p span {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .right {
@@ -67,7 +67,7 @@ p span {
 
 .left h5 {
   position: relative;
-  font-size: 2.3rem;
+  font-size: 2rem;
   padding-left: 3rem;
   margin-bottom: 1.5rem;
 }

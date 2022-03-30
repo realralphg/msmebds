@@ -55,7 +55,7 @@ h5 {
   position: relative;
   font-weight: 700;
   margin: 2rem auto;
-  font-size: 2.3rem;
+  font-size: 2rem;
   padding-left: 2rem;
 }
 h5::after {

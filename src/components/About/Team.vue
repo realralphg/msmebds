@@ -211,7 +211,7 @@ export default {};
   text-align: center;
   position: relative;
   margin: 0 0 1.4rem;
-  font-size: 2.3rem;
+  font-size: 2rem;
   font-weight: 700;
   padding-left: 2rem;
 }
@@ -256,7 +256,7 @@ export default {};
   text-align: center;
   position: relative;
   margin: 0 0 1.4rem;
-  font-size: 2.3rem;
+  font-size: 2rem;
   font-weight: 700;
   padding-left: 2rem;
 }
@@ -298,7 +298,7 @@ export default {};
 }
 .faq-heading {
   font-weight: 400;
-  font-size: 19px;
+  font-size: 18px;
   -webkit-transition: text-indent 0.2s;
   text-indent: 20px;
   border: none;

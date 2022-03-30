@@ -14,15 +14,29 @@
       <div class="men q-pb-xl">
         <Splide :options="options">
           <SplideSlide>
-            <div class="wrapp">
+            <!-- <div class="wrapp">
               <img src="/images/program1.png" alt="Sample 1" />
               <div class="detr">
                 <h5 class="text-weight-bold text-white q-mb-md">
                   The BDS Fellowship Programme
                 </h5>
 
-                <p class="q-mb-lg">
+                <p>
                   Building the Next Generation of Expert MSME Service Providers
+                </p>
+
+                <q-btn to="/busdev" class="btn">Learn More</q-btn>
+              </div>
+            </div> -->
+            <div class="wrapp">
+              <img src="/images/program2.png" alt="Sample 1" />
+              <div class="detr">
+                <h5 class="text-weight-bold text-white q-mb-md">
+                  The BDS Fellowship Programme
+                </h5>
+
+                <p>
+                   Building the Next Generation of Expert MSME Service Providers
                 </p>
 
                 <q-btn to="/busdev" class="btn">Learn More</q-btn>
@@ -111,10 +125,10 @@ export default defineComponent({
         1400: {
           perPage: 3,
         },
-        1300: {
+        800: {
           perPage: 2,
         },
-        800: {
+        500: {
           perPage: 1,
         },
       },
@@ -128,7 +142,7 @@ export default defineComponent({
 <style scoped>
 p {
   margin-bottom: 0;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 .hold {
   margin: 7rem auto 0;
@@ -136,7 +150,8 @@ p {
 .wrapp {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 100;
+  /* min-height: 500px; */
 }
 
 .wrapp img {
@@ -157,7 +172,7 @@ p {
 
 .wrapp .detr p {
   margin-bottom: 2rem;
-  height: 90px;
+  /* height: 90px; */
 }
 
 .btn {
@@ -175,7 +190,7 @@ p {
   position: relative;
   font-weight: 700;
   margin: 1rem 0 1.5rem;
-  font-size: 2.3rem;
+  font-size: 2rem;
   padding-left: 2.5rem;
 }
 .left h5::before {
@@ -191,8 +206,8 @@ p {
 }
 
 .left p {
-  margin: 3.5rem 0;
-  font-size: 1.3rem;
+  margin: 2rem 0;
+  font-size: 1rem;
 }
 
 @media (max-width: 800px) {

@@ -57,7 +57,7 @@ h2 {
 
 h2 {
   position: relative;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   padding-left: 6rem;
   margin-bottom: 1.5rem;
   top: 50%;
@@ -85,11 +85,11 @@ h2::before {
 }
 
 p {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 p span {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .right {
@@ -149,7 +149,7 @@ p span {
 
 .left h5 {
   position: relative;
-  font-size: 2.3rem;
+  font-size: 2rem;
   padding-left: 3rem;
   margin-bottom: 1.5rem;
 }
