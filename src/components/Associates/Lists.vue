@@ -96,5 +96,12 @@ p {
   .griid {
     padding: 4rem 0rem 7rem;
   }
+
+    .bgt {
+    width: 100px;
+    position: absolute;
+    right: 0%;
+    bottom: -7%;
+  }
 }
 </style>
