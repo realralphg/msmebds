@@ -118,4 +118,18 @@ p span {
     height: 80px;
   }
 }
+
+@media (max-width: 500px) {
+  .right::before {
+    content: "";
+    position: absolute;
+    text-align: center;
+    background: #00eaab;
+    height: 100px;
+    width: 100px;
+    right: -4%;
+    z-index: -1;
+    top: -4%;
+  }
+}
 </style>

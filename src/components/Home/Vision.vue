@@ -75,7 +75,7 @@ export default {};
 
 .values-wrap {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 3rem;
   width: 90%;
   place-items: center;
@@ -92,7 +92,7 @@ export default {};
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
   cursor: pointer;
-  width: 400px;
+  /* width: 400px; */
   /* min-width: 100%; */
   text-align: left;
 }
@@ -303,5 +303,30 @@ export default {};
 .what-we-do::-webkit-scrollbar {
   /* background: #189b78; */
   width: 0.3rem;
+}
+
+@media (max-width: 500px) {
+  .values {
+    padding: 3rem 0;
+  }
+  .values-wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    width: 90%;
+    place-items: center;
+  }
+
+  .values-wrap .card {
+    background-color: #ffff;
+    padding: 1rem;
+    min-height: 450px;
+    height: 550px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    cursor: pointer;
+
+    text-align: left;
+  }
 }
 </style>
